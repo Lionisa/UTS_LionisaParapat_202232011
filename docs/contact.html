@@ -1,0 +1,43 @@
+<!-- formulir.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Lionisa</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Lionisa's Web</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Me</a></li>
+                <li><a href="gallery.html">My Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contact Me</h1>
+        <p>Feel free to contact me using the following methods:</p>
+        <ul>
+            <li><strong>Email:</strong> lionisa.parapat04@gmail.com</li>
+            <li><strong>Phone:</strong> 081319173283</li>
+            <li><strong>Instagram:</strong> @lionnmary</li>
+        </ul><br>
+        
+        <p>You can also use the form below to send me a message directly from this page:</p>
+        <form action="/submit_form" method="post">
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name"><br>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email"><br>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message"></textarea><br>
+            <input type="submit" value="Send">
+        </form>
+    </main>
+</body>
+</html>
